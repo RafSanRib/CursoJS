@@ -14,7 +14,9 @@ Operadores lógicos
 || -> OR -> OU
 ! -> NOT -> NÃO
 */
-console comp = 10 > 5;   // true
+const num1 = 10;
+const num2 = 11;
+const comp = num1 > num2;   // true
 console.log(comp);
 
   // true
