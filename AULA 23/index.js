@@ -3,3 +3,4 @@
 ||-> false || true -> true "o valor verdadeiro"
 
 */
+console.log(true && true);
