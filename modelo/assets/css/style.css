@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-:root {
-  --primary-color: rgb(17, 86, 102);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+  --primary-color: rgb(17, 86, 102); 
   --primary-color-darker: rgb(9, 48, 56);
 }
 
@@ -12,18 +13,19 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
-  font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
+  background: var(--primary-color); 
+  font-family: 'Open Sans', sans-serif;
+  font-family: 1,3em;
   line-height: 1.5em;
 }
 
 .container {
   max-width: 640px;
-  margin: 50px auto;
+  margin: 0 auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 form input, form label, form button {
@@ -38,10 +40,6 @@ form input {
   padding: 0 20px;
 }
 
-form input:focus {
-  outline: 1px solid var(--primary-color);
-}
-
 form button {
   border: none;
   background: var(--primary-color);
@@ -50,7 +48,7 @@ form button {
   font-weight: 700;
   height: 50px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 form button:hover {
